@@ -1,0 +1,186 @@
+body {
+background-color: white;
+
+}
+
+
+
+
+
+.container1 {
+
+background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    width: 90%;
+    padding: 10px;
+    font-size: 30px;
+
+
+}
+
+.container2 {
+
+background-image: url(image/image.png) ; 
+background-size: cover;
+height: 600px;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+
+}
+
+
+.kvinna {
+
+flex-direction: row;
+
+padding: 200px;
+
+
+}
+
+.container3 {
+
+background-color: lightgrey;
+padding: 30px;
+color: black;
+display:flex;
+flex-direction: row;
+justify-content: left;
+align-items: right;
+font-size: 30px;
+
+
+
+}
+
+.CTA {
+
+background-color: #4C64FF;
+border-radius: 400px;
+text-align: center;
+padding: 20px;
+
+}
+
+
+
+
+.text-container {
+
+flex-direction: row;
+justify-content: space-between;
+padding: 10px 200px 100px 500px;
+
+}
+
+.REC   {
+
+background-color: blueviolet;
+border-radius: 20px;
+width: 200px;
+height: 300px;
+
+
+
+}
+
+.container4 {
+
+font-size: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+
+
+
+
+
+.text-container2 {
+
+
+flex-direction: row;
+justify-content: space-between;
+align-items:center;
+text-align: center;
+
+
+}
+
+
+.recommendations {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.recommendations h2 {
+    margin-bottom: 20px;
+}
+
+.testimonials {
+
+    display: flex;
+    justify-content: space-around;
+    gap:20px
+}
+
+.testimonial {
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.CTA2 {
+
+background-color: #4C64FF;
+border-radius: 400px;
+padding:20px;
+justify-content:center;
+width: 50px;
+margin-left: 800px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    width: 1700px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    text-align: center;
+}
+
+.footer-contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
